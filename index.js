@@ -30,6 +30,14 @@ let posts = [
     author: "Samuel Green",
     date: "2023-08-10T09:15:00Z",
   },
+  {
+    id: 4,
+    title: "Messi's World Cup Dream: A Fairytale in the Making",
+    content:
+      "Messi is thriving off the responsibility of creating a fairytale World Cup swansong. The 35-year-old has been in sensational form for Argentina, scoring five goals and providing three assists in the tournament so far.",
+    author: "Anita Asante",
+    date: "2022-12-06T07:30:00Z",
+  },
 ];
 
 let lastId = 3;
