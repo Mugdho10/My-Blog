@@ -52,7 +52,7 @@ app.get("/posts", (req, res) => {
 });
 
 app.get("/posts/:id", (req, res) => {
-  const post = posts.find((p) => p.id ==== parseInt(req.params.id));
+  const post = posts.find((p) => p.id === parseInt(req.params.id));
   if (!post) return res.status(404).json({ message: "Post not found"});
   res.json(post);
 });
