@@ -113,11 +113,11 @@ a.edit {
 }
 
 a.delete {
-  background-color: #e74c3c;
+  background-color: #871204;
 }
 
 a.delete:hover {
-  background-color: #c0392b;
+  background-color: #871204;
 }
 
 #newPostBtn {
